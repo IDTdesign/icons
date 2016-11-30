@@ -33,6 +33,7 @@
     "grunt-svg2string": "^0.2.1",
     "grunt-svgstore": "^1.0.0",
     "grunt-text-replace": "^0.4.0",
+    "load-grunt-tasks": "^3.5.2",
     "time-grunt": "^1.4.0"
   }
 }

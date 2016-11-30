@@ -106,23 +106,7 @@ module.exports = (grunt) ->
 
 	# measures the time each task takes
 	require('time-grunt')(grunt);
-
-	# Build the available Grunt tasks.
-	grunt.loadNpmTasks 'grunt-contrib-uglify'
-	#grunt.loadNpmTasks 'grunt-contrib-watch'
-	grunt.loadNpmTasks 'grunt-contrib-connect'
-	grunt.loadNpmTasks 'grunt-contrib-clean'
-	#grunt.loadNpmTasks 'grunt-contrib-concat'
-	#grunt.loadNpmTasks 'grunt-contrib-less'
-	grunt.loadNpmTasks 'grunt-contrib-imagemin'
-	grunt.loadNpmTasks 'grunt-contrib-copy'
-	#grunt.loadNpmTasks 'grunt-autoprefixer'
-	grunt.loadNpmTasks 'grunt-newer'
-	#grunt.loadNpmTasks 'grunt-svg2png'
-	grunt.loadNpmTasks 'grunt-svgstore'
-	grunt.loadNpmTasks 'grunt-svg2string'
-	#grunt.loadNpmTasks 'grunt-dr-svg-sprites'
-	grunt.loadNpmTasks 'grunt-text-replace'
+	require('load-grunt-tasks')(grunt);
 
 	# Register our Grunt tasks.
 	grunt.registerTask 'bossrev', ['svgstore:bossrev', 'svg2string:bossrev']
