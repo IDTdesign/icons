@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Icons.fw-autorecharge" viewBox="0 0 25 25" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="25px" height="25px"
+>
+	<g id="autorecharge">
+		<path id="base20" d="M 25 6.25 L 16.0914 12.5 L 16.0914 8.9285 C 14.5464 8.8659 1.8374 7.1429 0.0556 12.5 C 0.0556 12.5 -1.7974 2.8494 16.0914 3.5715 L 16.0914 0 L 25 6.25 ZM 8.9088 16.0715 C 10.454 16.1343 23.1628 17.8573 24.9444 12.5 C 24.9444 12.5 26.7974 22.1506 8.9088 21.4285 L 8.9088 25 L 0 18.75 L 8.9088 12.5 L 8.9088 16.0715 Z" fill="#000000"/>
+	</g>
+</svg>

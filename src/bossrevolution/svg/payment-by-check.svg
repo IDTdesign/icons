@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Icons.fw-payment-by-check" viewBox="0 0 25 25" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="25px" height="25px"
+>
+	<g id="payment-by-check">
+		<path id="base23" d="M 0 9.9246 L 0 11.809 L 0 23.1156 L 0 25 L 1.8519 25 L 23.1481 25 L 25 25 L 25 23.1156 L 25 11.809 L 25 9.9246 L 23.1481 9.9246 L 18.5185 9.9246 L 18.5185 11.809 L 23.1481 11.809 L 23.1481 23.1156 L 1.8519 23.1156 L 1.8519 11.809 L 3.7037 11.809 L 3.7037 9.9246 L 1.8519 9.9246 L 0 9.9246 ZM 5.5556 11.809 L 4.7135 16.5486 L 9.2593 15.5779 L 5.5556 11.809 ZM 7.7343 9.9246 L 11.1111 13.2538 L 20.9694 3.3291 L 17.5926 0 L 7.7343 9.9246 ZM 12.963 15.5779 L 12.963 17.4623 L 20.3704 17.4623 L 20.3704 15.5779 L 12.963 15.5779 ZM 9.2593 18.4045 L 9.2593 20.2889 L 20.3704 20.2889 L 20.3704 18.4045 L 9.2593 18.4045 Z" fill="#444444"/>
+	</g>
+</svg>

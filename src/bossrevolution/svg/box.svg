@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Icons.fw-box" viewBox="0 0 25 25" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="25px" height="25px"
+>
+	<defs>
+		<linearGradient id="gradient1" x1="50%" y1="0%" x2="100.0005%" y2="86.6038%">
+			<stop stop-color="#e81a1a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#cc0000" stop-opacity="1" offset="50%"/>
+			<stop stop-color="#a00000" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+	</defs>
+	<g id="box">
+		<path id="base29" d="M 10.4486 13.6185 L 20.0832 6.0916 L 21.879 7.9039 L 11.6658 18.4012 L 10.6664 19.4289 L 9.7064 18.3669 L 4.2678 12.3508 L 6.0416 10.5319 L 10.4486 13.6185 ZM 12.5 0 C 5.5964 0 0 5.5964 0 12.5 C 0 19.4036 5.5964 25 12.5 25 C 19.4036 25 25 19.4036 25 12.5 C 25 5.5964 19.4036 0 12.5 0 Z" fill="url(#gradient1)"/>
+	</g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Icons.fw-redeem-br-card" viewBox="0 0 25 25" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="25px" height="25px"
+>
+	<g id="redeem-br-card">
+		<path id="base36" d="M 25 4 L 0 4 L 0 21 L 25 21 L 25 15.965 C 24.8367 15.9883 24.6698 16 24.5 16 C 22.567 16 21 14.433 21 12.5 C 21 10.567 22.567 9 24.5 9 C 24.6698 9 24.8367 9.0116 25 9.0349 L 25 4 ZM 1 5 L 24 5 L 24 7.615 C 21.6472 7.8166 19.5 9.4491 19.5 12.5 C 19.5 15.5509 21.6472 17.1833 24 17.385 L 24 20 L 1 20 L 1 5 ZM 23 6.765 L 23 6 L 2 6 L 2 19 L 23 19 L 23 18.235 C 20.5946 17.6808 18.5 15.7717 18.5 12.5 C 18.5 9.2283 20.5947 7.3187 23 6.765 Z" fill="#004c8e"/>
+	</g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Icons.fw-speed-dial" viewBox="0 0 25 25" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="25px" height="25px"
+>
+	<g id="speed-dial">
+		<path id="base40" d="M 12.4929 0.0007 C 5.5913 0.0007 -0.0068 5.5972 -0.0068 12.5002 C -0.0068 19.4036 5.5913 25 12.4929 25 C 19.396 25 24.9924 19.4036 24.9924 12.5002 C 24.9924 5.5972 19.396 0.0007 12.4929 0.0007 ZM 19.1563 17.0625 C 18.6873 17.5315 17.7344 17.7656 17.146 17.2476 L 11.4421 12.8491 L 11.4019 12.8042 L 11.248 12.6235 L 11.1367 12.4648 L 11.072 12.2651 L 11.0132 12.0522 L 11 11.9902 L 11 7.5918 C 11 6.9839 11.845 5.9775 12.4756 5.9775 C 13.106 5.9775 14 6.9839 14 7.5918 L 14 11.4597 L 18.8906 15.125 C 19.3809 15.5049 19.6719 16.5469 19.1563 17.0625 Z" fill="#757584"/>
+	</g>
+</svg>

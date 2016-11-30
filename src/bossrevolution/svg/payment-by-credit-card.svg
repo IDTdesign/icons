@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Icons.fw-payment-by-credit-card" viewBox="0 0 25 25" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="25px" height="25px"
+>
+	<g id="payment-by-credit-card">
+		<path id="base22" d="M 21.875 22 L 3.125 22 C 1.407 22 0 20.5751 0 18.8332 L 0 6.1665 C 0 4.4249 1.407 3 3.125 3 L 21.875 3 C 23.593 3 25 4.4249 25 6.1665 L 25 18.8332 C 25 20.5751 23.593 22 21.875 22 ZM 23.4375 6.1665 C 23.4375 5.2936 22.7385 4.5834 21.875 4.5834 L 3.125 4.5834 C 2.2644 4.5834 1.5627 5.2936 1.5627 6.1665 L 1.5627 7.7502 L 23.4375 7.7502 L 23.4375 6.1665 ZM 23.4375 10.9167 L 1.5627 10.9167 L 1.5627 18.8332 C 1.5627 19.7064 2.2644 20.4168 3.125 20.4168 L 21.875 20.4168 C 22.7385 20.4168 23.4375 19.7064 23.4375 18.8332 L 23.4375 10.9167 ZM 17.1875 12.5001 L 21.875 12.5001 L 21.875 15.6666 L 17.1875 15.6666 L 17.1875 12.5001 ZM 3.125 12.5001 L 12.5 12.5001 L 12.5 14.0831 L 3.125 14.0831 L 3.125 12.5001 ZM 6.25 17.2501 L 3.125 17.2501 L 3.125 15.6666 L 6.25 15.6666 L 6.25 17.2501 Z" fill="#444444"/>
+	</g>
+</svg>

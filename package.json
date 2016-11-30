@@ -1,0 +1,38 @@
+{
+  "name": "icons",
+  "version": "0.0.1",
+  "description": "SVG icons and sprite generator",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDTdesign/icons.git"
+  },
+  "keywords": [
+    "icons",
+    "SVG",
+    "sprite"
+  ],
+  "author": "Paul Radzkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IDTdesign/icons/issues"
+  },
+  "homepage": "https://github.com/IDTdesign/icons#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-newer": "^1.2.0",
+    "grunt-svg2string": "^0.2.1",
+    "grunt-svgstore": "^1.0.0",
+    "grunt-text-replace": "^0.4.0",
+    "time-grunt": "^1.4.0"
+  }
+}

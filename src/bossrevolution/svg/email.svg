@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Icons.fw-email" viewBox="0 0 25 25" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="25px" height="25px"
+>
+	<g id="email">
+		<path id="base14" d="M 24.7953 19.1943 L 17.1009 12.5786 L 24.8946 5.8166 C 24.9549 5.9776 25 6.1451 25 6.3262 L 25 18.4808 C 25 18.7433 24.9157 18.9785 24.7953 19.1943 ZM 1.7212 5.0269 L 1.8536 5 L 23.436 5 L 23.6528 5.0432 L 12.648 14.4265 L 1.7212 5.0269 ZM 0.1415 19.0993 C 0.0544 18.9094 0 18.7025 0 18.4808 L 0 6.3262 C 0 6.118 0.0451 5.9198 0.1204 5.7387 L 8.1976 12.5557 L 0.1415 19.0993 ZM 12.6417 16.4578 L 15.9359 13.5919 L 23.3668 20 L 1.8536 20 L 1.7722 19.9836 L 9.3598 13.5749 L 12.6417 16.4578 Z" fill="#ffffff"/>
+	</g>
+</svg>

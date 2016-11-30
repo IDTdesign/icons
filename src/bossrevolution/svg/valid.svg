@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Icons.fw-valid" viewBox="0 0 25 25" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="25px" height="25px"
+>
+	<g id="valid">
+		<path id="base37" d="M 12.5 25 C 5.5969 25 0 19.4045 0 12.5002 C 0 5.5972 5.5969 0 12.5 0 C 19.4033 0 25 5.5972 25 12.5002 C 25 19.4045 19.4033 25 12.5 25 ZM 12.5 0.9971 C 6.1577 0.9971 0.9969 6.158 0.9969 12.5002 C 0.9969 18.8455 6.1577 24.0032 12.5 24.0032 C 18.8423 24.0032 24.0032 18.8455 24.0032 12.5002 C 24.0032 6.158 18.8423 0.9971 12.5 0.9971 ZM 10.2874 19.1663 L 9.3585 18.0859 L 5.0225 12.9058 L 6.7388 11.0554 L 10.0764 13.2563 L 17.546 7.4783 L 19.2833 9.3218 L 11.2542 18.1211 L 10.2874 19.1663 Z" fill="#4d871d"/>
+	</g>
+</svg>
