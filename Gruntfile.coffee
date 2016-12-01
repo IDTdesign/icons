@@ -37,16 +37,22 @@ module.exports = (grunt) ->
 					      }
 					    </style>
 					  <head>
-					  <body>
+					  <body class="blog-layout">
 					    {{{svg}}}
-					    {{#each icons}}
-					    <div style="float:left; width: 150px; height: 150px; text-align: center;">
-					      <svg>
-					        <use xlink:href="#{{name}}" />
-					      </svg>
-					      <div>{{title}}</div>
-					    </div>
-					    {{/each}}
+						<main class="blog-article col-flex-xs">
+							<article class="blog-article-content flex-grow-xs">
+								<h1>BOSS Revolution Icons</h1>
+								<p>&nbsp;</p>
+							    {{#each icons}}
+							    <div style="float:left; width: 150px; height: 150px; text-align: center;">
+							      <svg>
+							        <use xlink:href="#{{name}}" />
+							      </svg>
+							      <div>{{title}}</div>
+							    </div>
+							    {{/each}}
+							</article>
+						</main>
 					  </body>
 					</html>
 					'
