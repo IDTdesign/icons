@@ -15,7 +15,14 @@ module.exports = (grunt) ->
 			bossrevdefssvg: 'src/bossrevolution/svg-defs.svg'
 			bossreviconsjs: 'src/bossrevolution/svg-icons.js'
 			bossxgen: [ 'src/bossxgen' ]
+			bossxgendefssvg: 'src/bossxgen/svg-defs-bossxgen.svg'
+			bossxgeniconsjs: 'src/bossxgen/svg-icons-bossxgen.js'
 			mvno: [ 'src/mvno' ]
+			mvnodefssvg: 'src/mvno/svg-defs-mvno.svg'
+			mvnoindexdefssvg: 'src/mvno/svg-defs-mvno-index.svg'
+			mvnoindexiconsjs: 'src/mvno/svg-icons-mvno-index.js'
+			mvnoappdefssvg: 'src/mvno/svg-defs-mvno-app.svg'
+			mvnoappiconsjs: 'src/mvno/svg-icons-mvno-app.js'
 			dist: [ 'dist' ]
 
 		#create one svg from multiple files
@@ -30,6 +37,7 @@ module.exports = (grunt) ->
 					  <head>
 					    <link rel="stylesheet" href="https://idtdesign.github.io/styles/docs.css">
 					    <style>
+								.blog-article{background:#ddd;}
 					      svg{
 					       width:50px;
 					       height:50px;
@@ -61,10 +69,31 @@ module.exports = (grunt) ->
 					cleanup: ['fill']
 				files: '<%= project.bossrevdefssvg %>':['<%= project.bossrev %>/svg/*.svg']
 
+			bossxgen:
+				options:
+					cleanup: ['fill']
+				files: '<%= project.bossxgendefssvg %>':['<%= project.bossxgen %>/svg/*.svg']
+
+			mvno:
+				files: [
+					'<%= project.mvnodefssvg %>':['<%= project.mvno %>/svg/index/*.svg','<%= project.mvno %>/svg/app/*.svg']
+					'<%= project.mvnoindexdefssvg %>':['<%= project.mvno %>/svg/index/*.svg']
+					'<%= project.mvnoappdefssvg %>':['<%= project.mvno %>/svg/app/*.svg']
+				]
+
 		#convert content of svg file to string
 		svg2string:
 			bossrev:
 				files: '<%= project.bossreviconsjs %>':['<%= project.bossrevdefssvg %>']
+
+			bossxgen:
+				files: '<%= project.bossxgeniconsjs %>':['<%= project.bossxgendefssvg %>']
+
+			mvno:
+				files: [
+					'<%= project.mvnoindexiconsjs %>':['<%= project.mvnoindexdefssvg %>']
+					'<%= project.mvnoappiconsjs %>':['<%= project.mvnoappdefssvg %>']
+				]
 
 		# optimize images if possible
 		imagemin:
@@ -116,4 +145,6 @@ module.exports = (grunt) ->
 
 	# Register our Grunt tasks.
 	grunt.registerTask 'bossrev', ['svgstore:bossrev', 'svg2string:bossrev']
+	grunt.registerTask 'bossxgen', ['svgstore:bossxgen', 'svg2string:bossxgen']
+	grunt.registerTask 'mvno', ['svgstore:mvno', 'svg2string:mvno']
 	grunt.registerTask 'default', []
