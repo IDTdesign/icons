@@ -134,7 +134,10 @@ var SVG_SVG_DEFS_MVNO_APP =
 '.5-0.1 0.7-0.3C30.9 27.8 30.9 27.2 30.5 26.8z"/><path d="M33.8 5.6H19.4c-1.8 0-3.2 1.4-3.2 3.2v3.6 2 25.3c0 1.8 1.4 3'+
 '.2 3.2 3.2h14.5c1.8 0 3.2-1.4 3.2-3.2V14.4v-2V8.8C37 7 35.6 5.6 33.8 5.6zM25.5 39c0-0.6 0.5-1.1 1.1-1.1s1.1 0.5 1.1 1'+
 '.1c0 0.6-0.5 1.1-1.1 1.1S25.5 39.6 25.5 39zM35 35.1H18.2V14.4H35V35.1zM18.2 12.4V8.8c0-0.6 0.5-1.2 1.2-1.2h14.5c0.6 0'+
-' 1.2 0.5 1.2 1.2v3.6H18.2z" fill="#E31B23"/></symbol><symbol viewBox="0 0 52 52" id="i--51_arrow"><title>arrow</title'+
-'><polygon points="0 0 52 0 52 52 0 52 0 0" fill="none"/><polygon points="20.53 24.69 27.86 17.35 26 15.5 15.5 26 26 3'+
-'6.5 27.85 34.65 20.53 27.31 36.5 27.31 36.5 24.69 20.53 24.69"/><circle cx="26" cy="26" r="17" fill="none" stroke="#e'+
-'31b23" stroke-miterlimit="10" stroke-width="2"/></symbol></svg>';
+' 1.2 0.5 1.2 1.2v3.6H18.2z" fill="#E31B23"/></symbol><symbol viewBox="0 0 52 52" id="i--51_arrow"><title>51_arrow</ti'+
+'tle><polygon points="0 0 52 0 52 52 0 52 0 0" fill="none"/><polygon points="20.53 24.69 27.86 17.35 26 15.5 15.5 26 2'+
+'6 36.5 27.85 34.65 20.53 27.31 36.5 27.31 36.5 24.69 20.53 24.69"/><circle cx="26" cy="26" r="17" fill="none" stroke='+
+'"#e31b23" stroke-miterlimit="10" stroke-width="2"/></symbol><symbol viewBox="0 0 52 52" id="i--52_arrow-flipped-hor">'+
+'<title>52_arrow-flipped-hor</title><polygon fill="none" points="0,0 52,0 52,52 0,52 "/><polygon points="31.47,24.69 2'+
+'4.14,17.35 26,15.5 36.5,26 26,36.5 24.15,34.65 31.47,27.31 15.5,27.31 15.5,24.69 "/><circle fill="none" stroke="#E31B'+
+'23" stroke-width="2" stroke-miterlimit="10" cx="26" cy="26" r="17"/></symbol></svg>';
