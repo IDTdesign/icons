@@ -13,6 +13,7 @@ module.exports = (grunt) ->
 		project:
 			bossrev: [ 'src/bossrevolution' ]
 			bossrevdefssvg: 'src/bossrevolution/svg-defs.svg'
+			bossrevdefscoloredsvg: 'src/bossrevolution/svg-defs-colored.svg'
 			bossreviconsjs: 'src/bossrevolution/svg-icons.js'
 			bossxgen: [ 'src/bossxgen' ]
 			bossxgendefssvg: 'src/bossxgen/svg-defs-bossxgen.svg'
@@ -64,10 +65,13 @@ module.exports = (grunt) ->
 					  </body>
 					</html>
 					'
-			bossrev:
+
+			bossrevclean:
 				options:
 					cleanup: ['fill']
 				files: '<%= project.bossrevdefssvg %>':['<%= project.bossrev %>/svg/*.svg']
+			bossrevcolored:
+				files: '<%= project.bossrevdefscoloredsvg %>':['<%= project.bossrev %>/svg-color/*.svg']
 
 			bossxgen:
 				options:
@@ -84,7 +88,7 @@ module.exports = (grunt) ->
 		#convert content of svg file to string
 		svg2string:
 			bossrev:
-				files: '<%= project.bossreviconsjs %>':['<%= project.bossrevdefssvg %>']
+				files: '<%= project.bossreviconsjs %>':['<%= project.bossrevdefssvg %>','<%= project.bossrevdefscoloredsvg %>']
 
 			bossxgen:
 				files: '<%= project.bossxgeniconsjs %>':['<%= project.bossxgendefssvg %>']
@@ -144,7 +148,7 @@ module.exports = (grunt) ->
 	require('load-grunt-tasks')(grunt);
 
 	# Register our Grunt tasks.
-	grunt.registerTask 'bossrev', ['svgstore:bossrev', 'svg2string:bossrev']
+	grunt.registerTask 'bossrev', ['svgstore:bossrevclean', 'svgstore:bossrevcolored', 'svg2string:bossrev']
 	grunt.registerTask 'bossxgen', ['svgstore:bossxgen', 'svg2string:bossxgen']
 	grunt.registerTask 'mvno', ['svgstore:mvno', 'svg2string:mvno']
 	grunt.registerTask 'default', []
