@@ -20,6 +20,8 @@ module.exports = (grunt) ->
 			bossxgeniconsjs: 'src/bossxgen/svg-icons-bossxgen.js'
 			mvno: [ 'src/mvno' ]
 			mvnodefssvg: 'src/mvno/svg-defs-mvno.svg'
+			mvnoglobalsvg: 'src/mvno/svg-global-mvno.svg'
+			mvnoglobaljs: 'src/mvno/svg-global-mvno.js'
 			mvnoindexdefssvg: 'src/mvno/svg-defs-mvno-index.svg'
 			mvnoindexiconsjs: 'src/mvno/svg-icons-mvno-index.js'
 			mvnoappdefssvg: 'src/mvno/svg-defs-mvno-app.svg'
@@ -83,6 +85,7 @@ module.exports = (grunt) ->
 					'<%= project.mvnodefssvg %>':['<%= project.mvno %>/svg/index/*.svg','<%= project.mvno %>/svg/app/*.svg']
 					'<%= project.mvnoindexdefssvg %>':['<%= project.mvno %>/svg/index/*.svg']
 					'<%= project.mvnoappdefssvg %>':['<%= project.mvno %>/svg/app/*.svg']
+					'<%= project.mvnoglobalsvg %>':['<%= project.mvno %>/svg/global/*.svg']
 				]
 
 		#convert content of svg file to string
@@ -97,6 +100,7 @@ module.exports = (grunt) ->
 				files: [
 					'<%= project.mvnoindexiconsjs %>':['<%= project.mvnoindexdefssvg %>']
 					'<%= project.mvnoappiconsjs %>':['<%= project.mvnoappdefssvg %>']
+					'<%= project.mvnoglobaljs %>':['<%= project.mvnoglobalsvg %>']
 				]
 
 		# optimize images if possible
