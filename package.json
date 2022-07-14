@@ -27,13 +27,16 @@
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-newer": "^1.2.0",
     "grunt-svg2string": "^0.2.1",
-    "grunt-svgstore": "^1.0.0",
+    "grunt-svgstore": "^2.0.0",
     "grunt-text-replace": "^0.4.0",
     "load-grunt-tasks": "^3.5.2",
     "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+    "coffeescript": "^2.7.0"
   }
 }
