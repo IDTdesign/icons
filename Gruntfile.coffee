@@ -26,6 +26,9 @@ module.exports = (grunt) ->
 			mvnoindexiconsjs: 'src/mvno/svg-icons-mvno-index.js'
 			mvnoappdefssvg: 'src/mvno/svg-defs-mvno-app.svg'
 			mvnoappiconsjs: 'src/mvno/svg-icons-mvno-app.js'
+			portalV4: [ 'src/portalV4' ]
+			portalV4defssvg: 'src/portalV4/svg-defs-portalV4.svg'
+			portalV4iconsjs: 'src/portalV4/svg-icons-portalV4.js'
 			dist: [ 'dist' ]
 
 		#create one svg from multiple files
@@ -80,6 +83,11 @@ module.exports = (grunt) ->
 					cleanup: ['fill']
 				files: '<%= project.bossxgendefssvg %>':['<%= project.bossxgen %>/svg/*.svg']
 
+			portalV4:
+				options:
+					cleanup: ['fill']
+				files: '<%= project.portalV4defssvg %>':['<%= project.portalV4 %>/svg/*.svg']
+
 			mvno:
 				files: [
 					'<%= project.mvnodefssvg %>':['<%= project.mvno %>/svg/index/*.svg','<%= project.mvno %>/svg/app/*.svg']
@@ -95,6 +103,9 @@ module.exports = (grunt) ->
 
 			bossxgen:
 				files: '<%= project.bossxgeniconsjs %>':['<%= project.bossxgendefssvg %>']
+
+			portalV4:
+				files: '<%= project.portalV4iconsjs %>':['<%= project.portalV4defssvg %>']
 
 			mvno:
 				files: [
@@ -154,5 +165,6 @@ module.exports = (grunt) ->
 	# Register our Grunt tasks.
 	grunt.registerTask 'bossrev', ['svgstore:bossrevclean', 'svgstore:bossrevcolored', 'svg2string:bossrev']
 	grunt.registerTask 'bossxgen', ['svgstore:bossxgen', 'svg2string:bossxgen']
+	grunt.registerTask 'portalV4', ['svgstore:portalV4', 'svg2string:portalV4']
 	grunt.registerTask 'mvno', ['svgstore:mvno', 'svg2string:mvno']
 	grunt.registerTask 'default', []
